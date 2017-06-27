@@ -1,0 +1,144 @@
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+
+
+body {
+	background-color: black;
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+}
+
+
+.app {
+	background-color: #303030;
+	border-radius: 2px;
+	margin: 3% auto 0 auto;
+	width: 70%;
+	height: 90%;
+	overflow: hidden;
+}
+
+.header {
+	background-color: #303030;
+	margin-top: -2rem;
+	border-bottom: 0.5rem solid black;
+}
+
+h1 {
+	color: #FEA71C;
+	padding-top: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 2.5rem;
+	text-shadow: 1px 1px 2px #131213;
+}
+
+h2 {
+	color: #e5e1d5;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	letter-spacing: 0.2rem;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.intro {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.highlight {
+	color: #e5e1d5;
+}
+
+#search-term {
+	margin-bottom: 1rem;
+}
+
+input[name="text-field"] {
+	width: 33%;
+	font-family: 'Helvetica', sans-serif;
+	color: #131213;
+	font-size: 2rem;
+	height: 2rem;
+	border-radius: 3px;
+	padding: 10px;
+  	border: solid 5px #e5e1d5;
+  	transition: border 0.3s;
+}
+
+input[name="text-field"]:focus,
+input[name="text-field"].focus {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 2rem;
+	color: #131213;
+  	border: solid 5px #e5e1d5;
+}
+
+input[type="submit"] {
+	font-family: 'Helvetica', sans-serif;
+	letter-spacing: 0.1rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #131213;
+	margin-left: 1rem;
+	padding: 1rem 1rem 0.7rem 1rem;
+  	background-color: #FEA71C;
+  	border: none;
+  	border-radius: 5px;
+  	box-shadow: 0 5px #B46D2E;
+  	cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  	opacity: 0.9;
+  	cursor: pointer;
+}
+
+input[type="submit"]:active {
+  	background-color: #B46D2E;
+  	box-shadow: 0 2px #B46D2E;
+  	transform: translateY(5px);
+}
+
+
+
+ul {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search-results li {
+	text-align: center;
+	list-style: none;
+	float: left;
+	max-width: 15%;
+	height: 17rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background-color: #FEA71C;
+	border-radius: 3px;
+	border-bottom-width: 3px;
+	overflow: hidden;
+
+}
+#search-results li img {
+	display: block;
+	width: 100%;
+}
+
+#search-results li p {
+	color: #131213;
+	text-align: center;
+	padding-bottom: 1rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
+	width: 50%;
+	height: 2.6rem;
+	
+}
+
+
